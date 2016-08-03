@@ -15,7 +15,7 @@ $(function(){
 						msg += '<div class="drink"><h2 class="drink">' + $data.drinks[0].name + '</h2><p>Annual Consumption, Per Capita: ' + $data.drinks[0].perCap +'<br>Market Share: ' + $data.drinks[0].share + '</p></div>'; 
 						break; 
 					case "wine":
-						msg += '<div class="drink"><h2 class="drink">Wine</h2><p>Annual Consumption, Per Capita: ' + drinks.wine.perCap +'<br>Market Share: ' + drinks.wine.share + '</p></div>'; 
+						msg += '<div class="drink"><h2 class="drink">'+ $data.drinks[1].name + '</h2><p>Annual Consumption, Per Capita: ' + $data.drinks[1].perCap +'<br>Market Share: ' + $data.drinks[0].share + '</p></div>'; 
 							break; 
 					case "sprits":
 						msg += '<div class="drink"><h2 class="drink">Beer</h2><p>Annual Consumption, Per Capita: ' + drinks.spirits.perCap +'<br>Market Share: ' + drinks.spirits.share + '</p></div>'; 
