@@ -4,6 +4,7 @@ $(function(){
 		//...loaads JSON data onto page
 		$.getJSON('data/data.json')
 			.done( function(data) {
+				var drinks = data;
 				alert("working");
 				// create msg variable to store HTML string
 				var msg = ""; 
