@@ -1,0 +1,9 @@
+{ "drinks": [
+	"beer" { "perCap": "5 gal. per day", "share": "$105,000,000,000.00 is spent annually on beer."}, 
+	"wine" { "perCap": "4 gal. per year", "share": "$19,000,000,000.00 is spent annually on wine."}, 
+	"spirits" { "perCap": "3 gal. per year", "share": "$23,000,000.00 is spent annually on spirits." },
+	"coffee" {"perCap": "20 gal. per year", "share": "$50,000,000.00 is spent annually on coffee." }, 
+	"tea" { "perCap": "6 gal. per year", "share": "$16,000,000.00 is spent annually on tea." }, 
+	"softDrinks" { "perCap": "3 gal. per year", "share": "$10,000,000.00 is spent annually on soft drinks." }, 
+	"bottledH20" { "perCap": "60 gal. per year", "share": "$10,000,000.00 is wasted annually on bottled water." }
+]}
