@@ -17,7 +17,7 @@ $(function(){
 					case "wine":
 						msg += '<div class="drink"><h2 class="drink">'+ $data.drinks[1].name + '</h2><p>Annual Consumption, Per Capita: ' + $data.drinks[1].perCap +'<br>Market Share: ' + $data.drinks[1].share + '</p></div>'; 
 							break; 
-					case "sprits":
+					case "spirits":
 						msg += '<div class="drink"><h2 class="drink">' + $data.drinks[2].name + '</h2><p>Annual Consumption, Per Capita: ' + $data.drinks[2].perCap +'<br>Market Share: ' + $data.drinks[2].share + '</p></div>'; 
 						break; 
 					case "coffee":
@@ -26,7 +26,7 @@ $(function(){
 					case "tea":
 						msg += '<div class="drink"><h2 class="drink">' + $data.drinks[4].name + '</h2><p>Annual Consumption, Per Capita: ' + $data.drinks[4].perCap +'<br>Market Share: ' + $data.drinks[4].share + '</p></div>'; 
 						break; 
-					case "cola":
+					case "softDrink":
 						msg += '<div class="drink"><h2 class="drink">' + $data.drinks[5].name + '</h2><p>Annual Consumption, Per Capita: ' + $data.drinks[5].perCap +'<br>Market Share: ' + $data.drinks[5].share + '</p></div>'; 
 						break;
 					case "bottledH20":
