@@ -5,6 +5,7 @@ $(function(){
 		//...loaads JSON data onto page
 		$.getJSON('data/data.json')
 			.done( function(data) {
+				alert("working");
 				// create msg variable to store HTML string
 				var msg = ""; 
 				// use Switch statement to find required data, add markup to msg 
@@ -33,10 +34,7 @@ $(function(){
 					}
 					$("#content").html(msg); 
 			}).fail( function() {
-				alert("expected"); 
-			})
-			.always( function() {
-				alert("I love God!"); 
+				alert("not working"); 
 			}); 
 		}
 
