@@ -2,7 +2,7 @@ $(function(){
 	// create function loadData that...
 	function loadData(linkID) {		
 		//...loaads JSON data onto page
-		$.getJSON('../data/data.json')
+		$.getJSON('data/data.json')
 			.done( function(data) {
 				alert("working");
 				// create msg variable to store HTML string
