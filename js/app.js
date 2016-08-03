@@ -10,7 +10,7 @@ $(function(){
 				// use Switch statement to find required data, add markup to msg 
 				switch(linkID) {
 					case "beer":
-						msg += '<div class="drink"><h2 class="drink">Beer</h2><p>Annual Consumption, Per Capita: ' + drinks.beer.perCap +'<br>Market Share: ' + drinks.beer.share + '</p></div>'; 
+						msg += '<div class="drink"><h2 class="drink">' + drinks[0].name + '</h2><p>Annual Consumption, Per Capita: ' + drinks[0].perCap +'<br>Market Share: ' + drinks.beer.share + '</p></div>'; 
 						break; 
 					case "wine":
 						msg += '<div class="drink"><h2 class="drink">Wine</h2><p>Annual Consumption, Per Capita: ' + drinks.wine.perCap +'<br>Market Share: ' + drinks.wine.share + '</p></div>'; 
