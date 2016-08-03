@@ -5,7 +5,7 @@ $(function(){
 		$.getJSON('data/data.json')
 			.done( function(data) {
 				var $data = data;
-				alert($data);
+				alert($data.drinks[0].name);
 				// create msg variable to store HTML string
 				var msg = ""; 
 				// use Switch statement to find required data, add markup to msg 
